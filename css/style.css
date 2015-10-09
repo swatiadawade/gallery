@@ -178,6 +178,13 @@ a:hover {
 	padding-top: 5px;
 	width: 500px;
 }
+.fb-like{
+	padding-left: 20px;
+	float:left;
+	padding-top:20px;
+	width:500px;
+	align-content: center;
+}
 .services{
 	padding-left: 20px;
 	float:left;
@@ -219,10 +226,14 @@ a:hover {
     text-shadow: 0 0 2px rgba(0,0,0,0.7);
  }
 @-moz-document url-prefix() { /* Firefox Hack :( */
-  .star-icon {
-    font-size: 50px;
-    line-height: 28px;
-  }
+  	.star-icon {
+  		color:#000;
+    	font-size: 28px;
+    	xline-height: 28px;
+  	}
+	.social{
+		display: table-cell;
+	}	  
 }
 .socialicon{
 	display: table;
@@ -231,7 +242,7 @@ a:hover {
 }
 .social { 
 	vertical-align: middle;
-  	display: table-cell;
+  	display: -webkit-inline-box;
 	cursor: pointer; 
 	width: 32px; 
 	height: 32px; 

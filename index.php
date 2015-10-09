@@ -6,11 +6,11 @@
         <meta name="keywords" content="">
         <meta name="author" content="">
 
-        <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+        <meta property="og:url"           content="http://didiwebsite.akshay.info" />
         <meta property="og:type"          content="website" />
         <meta property="og:title"         content="DIDI" />
         <meta property="og:description"   content="Get a Didi, not a maid" />
-        <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+        <meta property="og:image"         content="http://didiwebsite.akshay.info/images/like-button.png" />
 
         <script src="js/jquery-1.8.2.min.js"></script>
         <!-- bxSlider Javascript file -->
@@ -32,11 +32,19 @@
     	<header id="menuid">
         	<div class="posC clearfix">
             	<h1><a href="./" title="Didi Home">Home</a></h1>        	
-                <h1><a href="./" title="Blog">Blog</a></h1>                 
+                <h1><a href="https://mydididotin.wordpress.com" target="_blank" title="Blog">Blog</a></h1>                 
             </div>        
         </header>    
         <section id="content">   
-           
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
                 <ul class="bxslider">
                     <li>
                         <img src="images/suman_s.jpg" alt="Suman Suradkar" class="image" title=''>
@@ -58,8 +66,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
-                        <div class="fb-like" data-href="http://www.your-domain.com/your-page.html" data-layout="standard" data-action="like" data-show-faces="true">facebook
-                        </div>
+                       <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/manododari.jpg" alt="Mandodari Kamble" class="image">
@@ -80,6 +87,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/pushpa.jpg" alt="Pushpa Shingare" class="image">
@@ -101,6 +109,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/ramabai.jpg" alt="Ramabai Hebre" class="image">
@@ -122,6 +131,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/suman_d.jpg" alt="Suman Dhadage" class="image">
@@ -142,6 +152,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/rehana.jpg" alt="Rehana Shaikh" class="image">
@@ -163,6 +174,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/alka.jpg" alt="Alka Mane" class="image">
@@ -184,6 +196,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/parveen.jpg" alt="Parvin Khan" class="image">
@@ -205,6 +218,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/kamal.jpg" alt="Kamal Rathod" class="image">
@@ -226,6 +240,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/sushma.jpg" alt="Sushma Sarkate" class="image">
@@ -247,6 +262,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/naseema.jpg" alt="Naseema Shaikh" class="image">
@@ -268,6 +284,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/kesar.jpg" alt="Kesar Gavai" class="image">
@@ -289,6 +306,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/chaya.jpg" alt="Chhaya Gaikwad" class="image">
@@ -310,6 +328,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/geetadevi.jpg" alt="Geetadevi Kori" class="image">
@@ -331,6 +350,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/jyoti.jpg" alt="Jyoti Gaikwad" class="image">
@@ -352,6 +372,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/sindhu.jpg" alt="Sindhu Gaikwad" class="image">
@@ -373,6 +394,7 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                     <li>
                         <img src="images/vidya.jpg" alt="Vidya Bhosale" class="image">
@@ -394,19 +416,22 @@
                             <span class="star-icon full">☆</span>
                             <span class="star-icon full">☆</span>
                         </div>
+                        <div class="fb-like" data-href="https://www.mydidi.in" data-width="500" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                     </li>
                 </ul>           
         </section>   
        	<div class="footer">
             <div class="socialicon">
                 <span class="socialtext">GET SOCIAL</span>
-                <div class="social facebook">
-                    <a href='#' target="_blank">
-                    </a>
-                </div>
-                <div class="social twitter">
-                    <a href="#" target="_blank"></a>
-                </div>  
+                <a href='https://www.facebook.com/Mydiditeam' target="_blank">
+                    <div class="social facebook">
+                    
+                    </div>
+                </a>
+                <a href="https://twitter.com/MydidiTeam" target="_blank">
+                    <div class="social twitter">
+                    </div>
+                </a>
             </div>
         	<div class="posC clearfix">
                 © 2015 Urbanity Multisol Pvt. Ltd | All Rights Reserved
@@ -418,6 +443,6 @@
         $('.bxslider').bxSlider({
             mode: 'horizontal',
             slideWidth: 1100         
-        });
-    </script>
+        });       
+    </script>    
 </html>
