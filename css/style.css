@@ -55,11 +55,11 @@ a:hover {
 	text-align:center;	
 }
 #menuid {
-	padding:0px 0 8px 0;
+	padding:0px 0 5px 0;
 	border-bottom:1px solid #CCCCCC;
 	background-color:#FFF;
 	position:fixed;
-	top: 98px;
+	top: 93px;
 	width:100%;
 	z-index:9998;
 }
@@ -94,7 +94,7 @@ a:hover {
     top: 0;
     width: 100%;
     z-index:9999;    
-    height:41px;
+    height:36px;
 }
 #headerid a {
     text-decoration: underline;
@@ -118,8 +118,8 @@ a:hover {
 }
 
 #content {
-	padding-top:160px;
-	height: 442px;	
+	padding-top:150px;
+	height: 425px;	
 }
 #content .item  {
 	background-color:#FFF;
@@ -223,6 +223,36 @@ a:hover {
     font-size: 50px;
     line-height: 28px;
   }
+}
+.socialicon{
+	display: table;
+	padding-left:580px;
+	padding-bottom: 5px;
+}
+.social { 
+	vertical-align: middle;
+  	display: table-cell;
+	cursor: pointer; 
+	width: 32px; 
+	height: 32px; 
+	margin-right: 5px; 
+}
+.socialtext {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 8px;
+}
+.facebook { 
+	background: url(../images/socialpack/facebook.png);
+}
+.facebook:hover { 
+	background: url(../images/socialpack/facebooka.png) 
+}
+.twitter { 
+	background: url(../images/socialpack/twitter.png) 
+}
+.twitter:hover { 
+	background: url(../images/socialpack/twittera.png) 
 }
 .footer {
 	background-color:#004f5a;
